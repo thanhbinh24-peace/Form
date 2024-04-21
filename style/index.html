@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./signup.css">
+    <script src="./login.js"></script>
+  </head>
+  <body>
+    <div  class="container" >   
+
+      <form >
+        <div class="sign">
+          <p>
+              <input type="text"  class="value" id="username" placeholder="Username" required>
+          </p>
+          <p>
+              <input type="email" value="" id="email" placeholder="Email" required>
+          </p>
+          <p>
+              <input type="password"  value="" id="password" placeholder="Password" required>
+          </p>
+          <p>
+              <input type="password" value="" id="repass" placeholder="Type password again" required>
+          </p>
+        </div>
+          <p>
+              <div class="press">
+                  <button class="btn" type="button" onclick="return signUp()"> Sign up</button>
+
+
+                  <button onclick="resetForm()" class="btn"  type="button" >Reset</button>
+              </div>
+          </p>
+             <p id="note"></p>
+      </form>
+      
+  </div>
+  </body>
+</html>
